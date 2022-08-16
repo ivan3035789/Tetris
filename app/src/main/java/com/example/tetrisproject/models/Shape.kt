@@ -1,4 +1,4 @@
-import com.example.tetrisproject.models.Frame
+package com.example.tetrisproject.models
 
 enum class Shape(val frameCount: Int, val startPosition: Int) {
     Tetromino1(1, 1) {
