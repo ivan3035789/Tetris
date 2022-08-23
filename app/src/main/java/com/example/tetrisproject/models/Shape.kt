@@ -1,6 +1,7 @@
 package com.example.tetrisproject.models
 
 enum class Shape(val frameCount: Int, val startPosition: Int) {
+
     Tetromino1(1, 1) {
         override fun getFrame(frameNumber: Int): Frame {
             return Frame(2)
